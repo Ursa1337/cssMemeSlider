@@ -67,6 +67,7 @@ input {
 .wrapper-grid > span {
   flex: 1;
   transition: .2s transform ease-in-out;
+  font-style: italic;
 }
 
 .radio-wrapper {
