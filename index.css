@@ -94,18 +94,11 @@ label:hover > span {
   background: #1c79c1;
 }
 
-#slider-1:checked ~ .slider-control > .radio-wrapper > label[for="slider-1"],
-#slider-2:checked ~ .slider-control > .radio-wrapper > label[for="slider-2"],
-#slider-3:checked ~ .slider-control > .radio-wrapper > label[for="slider-3"],
-#slider-4:checked ~ .slider-control > .radio-wrapper > label[for="slider-4"] {
-  cursor: auto;
-}
-
 #slider-1:checked ~ .slider-control > .radio-wrapper > label[for="slider-1"] > span,
 #slider-2:checked ~ .slider-control > .radio-wrapper > label[for="slider-2"] > span,
 #slider-3:checked ~ .slider-control > .radio-wrapper > label[for="slider-3"] > span,
 #slider-4:checked ~ .slider-control > .radio-wrapper > label[for="slider-4"] > span {
-  background: #546A7B;
+  border: .125rem solid #1c79c1;
 }
 
 #slider-1:checked ~ .slider-control > .text-wrapper > .wrapper-grid > span,
