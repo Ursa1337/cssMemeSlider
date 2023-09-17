@@ -83,7 +83,7 @@ input {
 }
 
 .radio-wrapper > label > span {
-  background: #0D1F2D;
+  background: #023047;
   border-radius: 50%;
   width: 1rem;
   height: 1rem;
@@ -91,14 +91,22 @@ input {
 }
 
 label:hover > span {
-  background: #1c79c1;
+  border: .165rem solid #fb8500;  
 }
 
 #slider-1:checked ~ .slider-control > .radio-wrapper > label[for="slider-1"] > span,
 #slider-2:checked ~ .slider-control > .radio-wrapper > label[for="slider-2"] > span,
 #slider-3:checked ~ .slider-control > .radio-wrapper > label[for="slider-3"] > span,
 #slider-4:checked ~ .slider-control > .radio-wrapper > label[for="slider-4"] > span {
-  border: .125rem solid #1c79c1;
+  background: #fb8500;
+}
+
+#slider-1:checked ~ .slider-control > .radio-wrapper > label[for="slider-1"]:hover > span,
+#slider-2:checked ~ .slider-control > .radio-wrapper > label[for="slider-2"]:hover > span,
+#slider-3:checked ~ .slider-control > .radio-wrapper > label[for="slider-3"]:hover > span,
+#slider-4:checked ~ .slider-control > .radio-wrapper > label[for="slider-4"]:hover > span {
+  background: #fb8500;
+  border: .165rem solid #023047;
 }
 
 #slider-1:checked ~ .slider-control > .text-wrapper > .wrapper-grid > span,
